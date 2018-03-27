@@ -1,0 +1,38 @@
+/* style.css */
+body{
+  background: #fff;
+  color: #000;
+  font-size: 18px;
+  font-family: font-family: 'Roboto', sans-serif;
+}
+
+nav {
+	font-size: 1em;
+	font-family: font-family: 'Roboto', sans-serif;;
+}
+
+#title {
+	font-size: 48px;
+	color: #FF333;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1{
+  font-family: font-family: 'Indie Flower', cursive;
+  color: red;
+  font-weight: lighter;
+  font-size: 22px;
+}
+h2 {
+  font-family: font-family: 'Indie Flower', cursive;
+  color: #FF333;
+  font-weight: lighter;
+  font-size: 20px;
+}
+a {
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(51,51,255);
+}
