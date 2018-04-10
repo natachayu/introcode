@@ -109,8 +109,8 @@ a:hover {
   background: #FAFAFA
 }
 
-<.feature,.defi{
-  border: 1px solid #F2F2F2;
+.feature,.defi{
+  border: 10px solid #F2F2F2;
   background: #FAFAFA;
   margin: 15px;
   padding: 15px 0;
@@ -119,6 +119,7 @@ a:hover {
 }
 
 #apropos {
+  border: 1px solid #F2F2F2;
   margin: 0 auto;
   background-color: white;
   width: 80%;
