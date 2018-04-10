@@ -4,19 +4,19 @@ $( document ).ready(function() {
 
 
 function welcome() {
-   $("#welcome").html('<h4>Bienvenue, <br> soyez pret à renouveler de nouveaux défis !</h4>');
+   $("#welcome").html('<h4>Bienvenue, <br> Soyez prêt à relever de nouveaux défis !</h4>');
 };
 
 function getUsername() {
     //affiche une boite de dialogue 
-    var  user = prompt("Veuillez rentrez votre nom:", "");
+    var  user = prompt("Veuillez rentrez votre surnom:", "");
     // la fonction se termine en retournant le nom récupéré par la boite de dialogue
     return user
 };
 
 function welcome() {
     var name= getUsername();
-    $("#welcome").html('<h4>Bienvenue '+name+', <br> soyez pret à renouveler de nouveaux défis ! </h4>');
+    $("#welcome").html('<h4>Bienvenue '+name+', <br> Soyez prêt à relever de nouveaux défis ! </h4>');
 
 };
 
