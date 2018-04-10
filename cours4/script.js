@@ -25,7 +25,7 @@ welcome();
    	 showChallenge(data);
   	})
   	.fail(function() {
-   	 alert( "error" );
+   	 alert( "error" ); 
   	});
 	};
 
